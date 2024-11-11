@@ -1,0 +1,3 @@
+Nesse caso o uso de composição é melhor porque o cilindro tem um círculo nele,então eles tem essa relação parte-todo
+onde inclusive o cálculo da área do cilindro tem como um de seus componentes a área do círculo pertencente ao cilindro, então acaba ficando melhor usar 
+composição do que herança, onde neste último caso seria como se o cilindro fosse um círculo.

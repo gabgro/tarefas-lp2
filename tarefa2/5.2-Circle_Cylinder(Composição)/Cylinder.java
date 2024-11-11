@@ -10,6 +10,7 @@ public class Cylinder{
 		height = 1.0;
 	}
 	
+	//Outros construtores para o TestCylinder do exercício anterior funcionar com o exemplo de composição também
 	public Cylinder(double height) {
 		base = new Circle();
 		this.height = height;

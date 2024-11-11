@@ -1,0 +1,7 @@
+No polimorfismo em tempo de execução a decisão do método a ser utilizado é feito durante a execução do programa, já o em
+tempo de compilação a decisão é feita na compilação do programa. Logo o polimorfismo estático se chama desse jeito porque 
+a gente já sabe qual método será utilizado durante a execução do programa, já no dinâmico isso é feito em tempo real.
+Um exemplo de polimorfismo estático é a sobrecarga do método construtor, onde a decisão de qual método construtor utilizar
+é feita dependendo da assinatura do método durante a compilação. Já um exemplo de polimorfismo dinâmico é quando você cria
+uma variável do tipo de uma interface(onde nesse momento também é criado uma instância de uma classe) e no momento de 
+chamar o método, o método utilizado vai depender da classe utilizada para instanciar o objeto.

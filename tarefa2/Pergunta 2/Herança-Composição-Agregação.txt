@@ -1,0 +1,7 @@
+Herança é quando uma classe herda os métodos e atributos de outra classe.
+Tanto na composição quanto na agregação uma classe tem como atributo o objeto de outra classe, a diferença é que na
+composição há uma forte dependência entre as classes de modo que o objeto que faz parte da classe não existe sem a 
+a própia classe que ele compõe, inclusive o objeto é instanciado na própia classe que vai pegar esse objeto para compor
+ela. Já a agregação existe uma relação fraca entre as classes onde uma classe pode existir independente da outra, 
+tanto que o objeto que vai agregar a outra classe pode ser instanciado em um main(por exemplo), e sendo assim pode 
+agregar uma terceira classe se o problema necessitar
